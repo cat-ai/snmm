@@ -7,7 +7,7 @@
 		revision="1.0.0"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20191203151406"/>
+		date="20191205230919"/>
 	<dependencies>
 		<module organisation="org.scalamacros" name="paradise_2.12.4">
 			<revision name="2.1.0" status="release" pubdate="20171019195822" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">

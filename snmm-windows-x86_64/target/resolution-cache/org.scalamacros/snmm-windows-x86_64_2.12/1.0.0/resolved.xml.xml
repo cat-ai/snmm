@@ -4,7 +4,7 @@
 		module="snmm-windows-x86_64_2.12"
 		revision="1.0.0"
 		status="integration"
-		publication="20191203151406"
+		publication="20191205230919"
 	>
 		<description>
 		snmm-windows-x86_64

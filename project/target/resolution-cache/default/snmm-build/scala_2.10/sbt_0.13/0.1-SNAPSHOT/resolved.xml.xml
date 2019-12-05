@@ -4,7 +4,7 @@
 		module="snmm-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20191130115530"
+		publication="20191205230855"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

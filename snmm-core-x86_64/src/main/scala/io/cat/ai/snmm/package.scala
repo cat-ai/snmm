@@ -138,8 +138,6 @@ package object snmm {
       **/
     def sizeof[A](implicit nativeSize: NativeSize[A]): Int = StdLib.sizeof(nativeSize)
 
-    def sizeofStruct[Struct <: AbstractStruct](struct: Struct): AbstractStruct = struct
-
     /**
       * Memory allocation
       *

@@ -4,7 +4,7 @@
 		module="snmm-core-x86_64_2.12"
 		revision="1.0.0"
 		status="integration"
-		publication="20191203151404"
+		publication="20191205230918"
 	>
 		<description>
 		snmm-core-x86_64

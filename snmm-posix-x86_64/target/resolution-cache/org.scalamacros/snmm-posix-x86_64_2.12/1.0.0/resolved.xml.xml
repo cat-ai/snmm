@@ -4,7 +4,7 @@
 		module="snmm-posix-x86_64_2.12"
 		revision="1.0.0"
 		status="integration"
-		publication="20191203151406"
+		publication="20191205230920"
 	>
 		<description>
 		snmm-posix-x86_64

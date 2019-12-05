@@ -7,10 +7,10 @@
 		revision="1.0.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20191203151406"/>
+		date="20191205230920"/>
 	<dependencies>
 		<module organisation="org.scalamacros" name="snmm-core-x86_64_2.12">
-			<revision name="1.0.0" status="integration" pubdate="20191203151404" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="1.0.0" status="integration" pubdate="20191205230918" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.scalamacros" name="snmm-posix-x86_64_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
 				<artifacts>
@@ -18,7 +18,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalamacros" name="snmm-macros_2.12">
-			<revision name="1.0.0" status="integration" pubdate="20191203151404" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="1.0.0" status="integration" pubdate="20191205230917" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.scalamacros" name="snmm-core-x86_64_2.12" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
 				<artifacts>
@@ -47,7 +47,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalamacros" name="snmm-platform_2.12">
-			<revision name="1.0.0" status="integration" pubdate="20191203151403" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+			<revision name="1.0.0" status="integration" pubdate="20191205230917" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.scalamacros" name="snmm-posix-x86_64_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
 				<caller organisation="org.scalamacros" name="snmm-core-x86_64_2.12" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
