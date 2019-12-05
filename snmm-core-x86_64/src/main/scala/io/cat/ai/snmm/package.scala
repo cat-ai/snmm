@@ -80,7 +80,6 @@ package object snmm {
       * @param value     - value stored at native memory
       * @param nativePtr - native pointer typeclass
       *
-      *  @return the pointer of value
       **/
     def &[A](value: A)(implicit nativePtr: NativeHeapPointer[A]): *[A] = nativePtr.addressOf(value)
 
