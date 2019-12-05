@@ -1,7 +1,10 @@
 *.class
 *.log
 
-target
+bin/
+project/
+target/
+build/
 
 *.iml
 *.ipr
