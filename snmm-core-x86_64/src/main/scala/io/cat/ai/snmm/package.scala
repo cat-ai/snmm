@@ -99,9 +99,7 @@ package object snmm {
       *         }
       * }}}
       *
-      *  @return the pointer of value
-      **/
-
+      *  **/
     @tailrec
     def `for`[T](init: => T, condition: => Boolean, op: => T = None)(body: => Unit): Unit =
       if (condition) {
