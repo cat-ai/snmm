@@ -3,7 +3,7 @@ Scala Native Memory Management
 
 snmm - library allowing to work with off-heap memory using Scala objects
 
-snmm enables programmer to write work with native objects, and all of them - is a function calls to JNI methods
+snmm enables programmer to work with native objects, and all of them - is a function calls to JNI methods
 
 Scala -> JVM -> JNI -> C -> OS
 
