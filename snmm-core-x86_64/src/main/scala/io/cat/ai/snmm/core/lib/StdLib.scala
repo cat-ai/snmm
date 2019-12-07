@@ -2,7 +2,7 @@ package io.cat.ai.snmm.core.lib
 
 import io.cat.ai.snmm.common.CTypeAlias._
 import io.cat.ai.snmm.core.pointer.Pointer
-import io.cat.ai.snmm.core.pointer.generic.{NativeHeapDynamicMemoryAllocator, NativeSize, NativeStruct}
+import io.cat.ai.snmm.core.pointer.generic.{NativeHeapDynamicMemoryAllocator, NativeSize}
 
 object StdLib {
 
@@ -94,6 +94,4 @@ object StdLib {
     * Obtain the size (in bytes) of the data type
     * */
   def sizeof[A](nativeSize: NativeSize[A]): Int = nativeSize.size
-
-  def sizeofStruct[A](nativeStruct: NativeStruct): Int = nativeStruct.hashCode
 }
